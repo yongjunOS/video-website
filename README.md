@@ -76,7 +76,7 @@
 
 ---
 ### 실제페이지
-#### 회원가입 페이지
+#### 로그인 페이지
 <img width="1439" alt="image" src="https://github.com/user-attachments/assets/4cbd0a83-bd09-4a04-8cd8-4a4d63605208">
 
 #### 동영상 페이지
