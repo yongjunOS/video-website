@@ -15,7 +15,8 @@
 ---
 
 ### 프로젝트 역할
-<img width="1109" alt="image" src="https://github.com/user-attachments/assets/dacdbd41-fe32-476d-ae66-52fbc87734bc">
+<img width="1111" alt="image" src="https://github.com/user-attachments/assets/9277b467-48d4-43c2-aba9-f9a9d9a0e233">
+
 
 
 ---
@@ -40,7 +41,7 @@
 
 
 ### 개발환경
-![개발환경](https://private-user-images.githubusercontent.com/166098924/348583501-9c97e24f-5976-45e4-bf9f-92a45e107d58.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEwMDc5ODgsIm5iZiI6MTcyMTAwNzY4OCwicGF0aCI6Ii8xNjYwOTg5MjQvMzQ4NTgzNTAxLTljOTdlMjRmLTU5NzYtNDVlNC1iZjlmLTkyYTQ1ZTEwN2Q1OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxNVQwMTQxMjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNjM5Y2YzYjg4NDBmMjVjMWM0MjRhODJkZjgxMDM5ZGJiODEyM2IyM2UyZmNkZTY0N2NiMWRlNTNhMjkzYjk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7gycW4iLNdjl_9ADaAx3sijYteFRlr6icJEjpJx228o)
+<img width="1109" alt="image" src="https://github.com/user-attachments/assets/dacdbd41-fe32-476d-ae66-52fbc87734bc">
 
 ---
 
