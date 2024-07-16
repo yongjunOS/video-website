@@ -1,0 +1,145 @@
+/* VideoAll.css */
+.video-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  padding: 20px;
+  padding-top: 8%; /* 상단 여백을 퍼센트 값으로 설정 */
+  width: 100%; /* 전체 너비로 설정 */
+  max-width: 70%;
+  margin: 0; /* 외부 여백 제거 */
+  box-sizing: border-box; /* 패딩 포함한 박스 크기 계산 */
+}
+
+.upload-button {
+	margin-bottom: 20px;
+}
+
+.video-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	width: 100%;
+}
+
+.video-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f9f9f9;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s, box-shadow 0.3s;
+	max-width: 100%; /* 비디오 항목의 최대 너비를 설정 */
+}
+
+.video-item:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-thumbnail {
+	width: 100%;
+	height: 180px; /* 썸네일 높이를 고정 */
+	object-fit: cover;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.video-info {
+	text-align: center;
+}
+
+.video-info a {
+	text-decoration: none; /* 링크 텍스트의 밑줄 제거 */
+	color: inherit; /* 링크 텍스트의 색상 상속 */
+}
+
+.video-title {
+	font-size: 1.2em;
+	margin: 10px 0;
+}
+
+.video-upload-date, .video-stats {
+	color: #555;
+	margin: 5px 0;
+}
+
+.upload-button {
+	position: fixed;
+	top: 100px; /* bottom 대신 top 사용 */
+	right: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #5DD5D5;
+	color: white;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:  width 0.3s ease, border-radius 0.3s ease;
+	overflow: hidden;
+}
+
+.upload-button:hover {
+	width: 150px;
+	border-radius: 30px;
+}
+
+.upload-icon {
+	font-size: 26px;
+	color: white;
+	top: 60px; /* bottom 대신 top 사용 */
+	right: 20px;
+	width: 60px;
+	height: 45px;
+}
+
+.upload-text {
+	display: none;
+	color: white;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.upload-button:hover .upload-icon {
+	display: none;
+}
+
+.upload-button:hover .upload-text {
+	display: block;
+}
+
+@media ( max-width : 1200px) {
+	.video-list {
+		grid-template-columns: repeat(3, 1fr);
+		/* 화면 크기가 작아질 때는 3개씩 배치하도록 설정 */
+	}
+}
+
+@media ( max-width : 900px) {
+	.video-list {
+		grid-template-columns: repeat(2, 1fr);
+		/* 화면 크기가 더 작아질 때는 2개씩 배치하도록 설정 */
+	}
+}
+
+@media ( max-width : 600px) {
+	.video-list {
+		grid-template-columns: repeat(1, 1fr);
+		/* 화면 크기가 매우 작아질 때는 한 줄에 하나씩 배치하도록 설정 */
+	}
+}
+
+@media ( min-width : 1300px) {
+	.video-container {
+		max-width: 1300px; /* 화면이 1300px 이상일 때 최대 너비를 제한 */
+		margin: 0 auto; /* 가운데 정렬을 위해 margin을 auto로 설정 */
+	}
+}

@@ -1,0 +1,91 @@
+.playlist-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.playlist-submit-button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.playlist-submit-button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.character-count {
+    text-align: right;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* 일관된 모달 스타일 */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 600px;
+    max-height: 80vh; /* 최대 높이 유지 */
+    overflow-y: auto;
+    margin: auto;
+}
+
+.playlist-submit-button {
+    background-color: #5DD5D5; /* 민트색으로 변경 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* 버튼을 폼 너비에 맞춤 */
+    transition: background-color 0.3s ease; /* 부드러운 색상 전환 효과 */
+}
+
+.playlist-submit-button:hover {
+    background-color: #4CC4C4; /* 호버 시 약간 어두운 민트색 */
+}
+
+.playlist-submit-button:disabled {
+    background-color: #cccccc; /* 비활성화 상태일 때의 색상 */
+    cursor: not-allowed;
+}
