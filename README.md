@@ -14,7 +14,7 @@
 
 ---
 
-### 프로젝트 역할
+### 프로젝트 역할분담
 <img width="1111" alt="image" src="https://github.com/user-attachments/assets/9277b467-48d4-43c2-aba9-f9a9d9a0e233">
 
 
