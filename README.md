@@ -75,6 +75,21 @@
 6. 동영상 스트리밍 최적화로 사용자 경험 향상<br>
 
 ---
+#### 실제페이지
+회원가입 페이지
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/4cbd0a83-bd09-4a04-8cd8-4a4d63605208">
+
+동영상 페이지
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/7960edac-0e53-475e-b3c7-f373b578b7fe">
+
+결제 페이지
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/f76cb102-087a-4fc0-9f38-c256d40f5f7d">
+
+
+
+
+
 
 ### 향후 계획
 1. 보안 강화 계획<br>
