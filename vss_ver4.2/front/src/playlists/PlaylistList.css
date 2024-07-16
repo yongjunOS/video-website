@@ -1,12 +1,11 @@
+/* PlaylistList.css */
 .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh; /* 뷰포트 높이의 80%로 설정 */
-    padding: 20px; /* 원하는 만큼 여백을 추가 */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 }
-
 
 .playlist-container {
 	display: flex;
@@ -81,6 +80,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-start; /* 상단 정렬로 변경 */
+	padding-top: 50px; /* 상단 여백 추가 */
+	padding: 300px;
 }
 
 .modal-content {
