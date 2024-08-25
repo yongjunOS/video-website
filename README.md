@@ -54,6 +54,4 @@
 6. 동영상 스트리밍 최적화로 사용자 경험 향상<br>
 
 ---
-#### 재생목록 페이지
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/b7c46a6b-7940-4da1-ac68-836fa79bafc2">
 
