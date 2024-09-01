@@ -34,7 +34,7 @@
 - Bootstrap
 
 ### 기타 도구 및 라이브러리
-- Maven
+- Gradle
 - log4j
 - JavaMailSender (이메일 서비스)
 - IamportClient (결제 시스템)
