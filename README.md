@@ -1,61 +1,40 @@
-# JAVABOJA Final Project
+# Video Streaming Service (VSS)
+#### 제작기간 : 2024.6.1 ~ 2024.7.10
+인원 : 5명 
 
-### 프로젝트 주제 : 동영상 스트리밍 서버 웹 솔루션 개발<br>
+## 주요 기능
 
-#### PM - 권동빈<br>
+- **사용자 관리**: 회원가입, 로그인, 프로필 관리
+- **비디오 업로드 및 관리**: 사용자는 비디오를 업로드하고 관리할 수 있습니다
+- **재생목록**: 사용자는 좋아하는 비디오로 재생목록을 만들고 관리할 수 있습니다
+- **댓글 시스템**: 비디오에 대한 사용자 상호작용을 위한 댓글 기능
+- **결제 시스템**: 프리미엄 기능에 대한 결제 처리
 
-#### PL - 이준경<br>
+## 담당기능
+- **재생목록**: 사용자는 좋아하는 비디오로 재생목록을 만들고 관리할 수 있습니다
 
-#### PA - 김용준<br>
+## 기술 스택
 
-#### PA - 유성욱<br>
+### 백엔드
+- Java
+- Spring Boot
+- JPA/Hibernate
+- MySQL
 
-#### DBA - 정민성<br>
+### 프론트엔드
+- React
+- Bootstrap
 
----
+### 기타 도구 및 라이브러리
+- Maven
+- log4j
+- JavaMailSender (이메일 서비스)
+- IamportClient (결제 시스템)
 
-### 역할분담 및 프로젝트계획
-<img width="1111" alt="image" src="https://github.com/user-attachments/assets/9277b467-48d4-43c2-aba9-f9a9d9a0e233">
-
-
-
----
-
-### 개발환경
-<img width="1109" alt="image" src="https://github.com/user-attachments/assets/dacdbd41-fe32-476d-ae66-52fbc87734bc">
-
----
-
-### ERD
-![프론트 컨트롤러 패턴을 이용한 동영상 스트리밍서버 웹 솔루션 (2)](https://github.com/user-attachments/assets/8b6e61eb-6d2f-441a-85d0-0c0050c1b4f7)
+## ERD (Entity Relationship Diagram)
+![Untitled diagram-2024-09-01-113458](https://github.com/user-attachments/assets/a3f6c67e-826b-431c-a2e1-5be4ce13a31e)
 
 
-### 개발 구조
 
-#### 프론트엔드
--React.js를 사용하여 동적이고 반응형 사용자 인터페이스 구현<br>
--동영상 플레이어 컴포넌트 구현<br>
--재생목록 관리 개발<br>
--사용자 프로필 및 설정 페이지 구현<br>
-#### 백엔드
--Spring Boot 3 기반의 RESTful API 서버 구축<br>
--비디오 스트리밍 및 파일 업로드 처리 로직 구현<br>
-#### 데이터베이스
--Oracle 21C를 사용한 데이터 관리 및 저장<br>
--비디오 메타데이터, 사용자 정보, 재생목록, 댓글 등의 데이터 모델 설계<br>
--JPA와 Hibernate를 활용한 객체-관계 매핑 구현<br>
-#### 외부 API
--결제 시스템 (포트원)<br>
-
----
-
-### 프로젝트 결과
-1. 기술 스택 통합: Spring Boot 3와 React 통합하여  현대적이고 효율적인 웹 애플리케이션 구축<br>
-2. Oracle 21C 데이터베이스와의 원활한 연동 구현<br>
-3. 핵심 기능 구현: 동영상 업로드, 스트리밍, 재생목록 관리 등 주요 기능 성공적 구현<br>
-4. 사용자 인증 및 권한 관리 시스템 구축<br>
-5. 효율적인 데이터베이스 쿼리 설계로 응답 시간 개선<br>
-6. 동영상 스트리밍 최적화로 사용자 경험 향상<br>
-
----
+이 ERD는 VSS의 주요 엔티티와 그들 사이의 관계를 보여줍니다. 회원(MEMBER)은 비디오를 업로드하고, 재생목록을 만들며, 결제 내역을 가지고 있습니다. 비디오(VIDEO)는 댓글을 가질 수 있으며, 재생목록(PLAYLIST)에 포함될 수 있습니다.
 
