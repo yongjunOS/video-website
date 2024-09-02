@@ -1,0 +1,78 @@
+.payment-container {
+    max-width: 650px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.payment-title {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.payment-select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.payment-button, .history-button, .login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #67d7d6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.payment-button:hover, .history-button:hover, .login-button:hover {
+    background-color: rgb(45, 172, 172);
+    transform: translateY(-2px);
+}
+
+.history-button:last-child {
+    margin-bottom: 0;
+}
+
+.info-container {
+    background-color: #e9ecef;
+    padding: 25px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.info-title {
+    color: #495057;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-text {
+    color: #6c757d;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (max-width: 850px) {
+    .payment-container {
+        width: 95%;
+        padding: 30px;
+    }
+}
