@@ -35,3 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Node modules
+node_modules/
+
+# React build cache
+.cache/
