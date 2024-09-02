@@ -1,0 +1,182 @@
+.navbar {
+	background: linear-gradient(90deg, rgb(110, 216, 191) 0%, rgb(94, 213, 239)
+		100%);
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	box-shadow: 0 4px 8px 0 rgb(102 215 216 / 30%);
+}
+
+.logo-image {
+  height: 40px; /* 원하는 높이로 조정 */
+  width: auto; /* 비율 유지 */
+  cursor: pointer; /* 마우스 오버시 커서 변경 */
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	max-width: 1500px;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.navbar-logo {
+	color: #fff;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+}
+
+.fa-typo3 {
+	margin-left: 0.5rem;
+	font-size: 1.8rem;
+}
+
+.nav-menu {
+	display: flex;
+	list-style: none;
+	text-align: center;
+	margin-right: 2rem;
+}
+
+.nav-item {
+	height: 80px;
+}
+
+.nav-links {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	height: 100%;
+}
+
+.nav-links:hover {
+	border-bottom: 4px solid #fff;
+	transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+	display: none;
+}
+
+.navbar-user {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	height: 100%;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* 검색 창을 오른쪽으로 정렬 */
+    margin-right: 20px; /* 검색 창과 로그아웃 버튼 사이 간격 추가 */
+    margin-top: 17px; /* 검색 창을 약간 아래로 내림 */
+}
+
+
+.navbar-search form {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input[type='text'] {
+	width: 400px; /* 원하는 길이로 조정 */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.navbar-search button {
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+
+@media screen and (max-width: 960px) {
+	.navbar-container {
+		justify-content: space-between;
+	}
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 90vh;
+		position: absolute;
+		top: 80px;
+		left: -100%;
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+	.nav-menu.active {
+		background: #242222;
+		left: 0;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 1;
+	}
+	.nav-links {
+		text-align: center;
+		padding: 2rem;
+		width: 100%;
+		display: table;
+	}
+	.nav-links:hover {
+		background-color: #fff;
+		color: #242424;
+		border-radius: 0;
+	}
+	.navbar-logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(25%, 50%);
+	}
+	.menu-icon {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(-100%, 60%);
+		font-size: 1.8rem;
+		cursor: pointer;
+	}
+	.fa-times {
+		color: #fff;
+		font-size: 2rem;
+	}
+	.nav-links-mobile {
+		display: block;
+		text-align: center;
+		margin: 2rem auto;
+		border-radius: 4px;
+		width: 80%;
+		text-decoration: none;
+		font-size: 1.5rem;
+		background-color: transparent;
+		color: #fff;
+		padding: 14px 20px;
+		border: 1px solid #fff;
+		transition: all 0.3s ease-out;
+	}
+	.nav-links-mobile:hover {
+		background: #fff;
+		color: #242424;
+		transition: 250ms;
+	}
+}
