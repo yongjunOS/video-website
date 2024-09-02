@@ -41,6 +41,6 @@ public class PlayList {
 
 	@ManyToMany(fetch = FetchType.LAZY, cascade = { CascadeType.PERSIST, CascadeType.MERGE })
 	@JoinTable(name = "playlist_videos", joinColumns = @JoinColumn(name = "playlist_num"), inverseJoinColumns = @JoinColumn(name = "video_num"))
-
+	//jsonignoreproperties 삭제
 	private Set<Video> videos;
 }
