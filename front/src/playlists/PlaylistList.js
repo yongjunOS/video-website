@@ -210,7 +210,7 @@ function PlaylistList() {
 			)}
 			{selectedPlaylist && (
 				<div className="modal">
-					<div className="modal-content" style={{ width: '80%', margin: 'auto', maxWidth: '1200px' }}>
+					<div className="modal-content" style={{ width: '60%', margin: 'auto', maxWidth: '500px' }}>
 						<span className="close" onClick={() => setSelectedPlaylist(null)}>&times;</span>
 						<h2>{selectedPlaylist.playlistTitle}</h2>
 						<p>{selectedPlaylist.playlistDescription}</p>

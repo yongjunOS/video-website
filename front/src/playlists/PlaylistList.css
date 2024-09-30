@@ -15,11 +15,13 @@
 	padding: 10px;
 	justify-content: center;
 	align-items: stretch;
+	max-width: 1200px; /* 최대 너비 설정 */
+	margin: 0 auto; /* 중앙 정렬 */
 }
 
 .playlist-item {
-	width: 200px; /* 고정 너비 설정 */
-	height: 200px; /* 고정 높이 설정 */
+	width: 180px; /* 너비 줄임 */
+	height: 180px; /* 높이도 조정 */
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	padding: 15px;
